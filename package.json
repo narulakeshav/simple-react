@@ -1,0 +1,44 @@
+{
+  "name": "simple-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/narulakeshav/simple-react.git",
+  "author": "<narulakeshav13@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config.dev.js --mode development",
+    "build": "webpack --mode production",
+    "flow": "flow"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.3",
+    "react-router-dom": "^4.3.1",
+    "styled-components": "^3.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-styled-components": "^1.10.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
+    "flow-bin": "^0.89.0",
+    "html-webpack-plugin": "^3.2.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
